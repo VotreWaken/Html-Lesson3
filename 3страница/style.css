@@ -1,0 +1,141 @@
+/* Reset Default Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  background: #9a0909;
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+}
+
+body 
+{
+  background: #9a0909;
+  display: flex;
+  justify-content: center;
+}
+
+/* Header Content */
+.Header__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header__info img {
+  padding: 20px;
+  transform: scale(1.3);
+  width: 40%;
+}
+
+.navigation {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.nav__items {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.nav__items a {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero Content */
+.Hero__content {
+  color: white;
+  display: flex;
+}
+
+.Left__panel {
+  height: 100%;
+  width: 23%;
+  background: #7d090a;
+}
+
+.left__list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.left__items {
+  margin: 15px;
+}
+.left__items a {
+  color: #e85a10;
+  text-decoration: underline;
+  font-size: 18px;
+}
+.Main__content {
+    width: 125%;
+}
+.Main__content p {
+  font-size: 22px;
+  font-weight: 300;
+  text-indent: 60px;
+  padding: 20px;
+}
+.Right__panel {
+  height: 100%;
+  width: 20%;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Right__panel p {
+  font-size: 18.3px;
+  margin: 12px;
+}
+
+/* Hero Content Right Panel Line*/
+.line {
+  width: 80%;
+  border-top: 1px solid gray;
+}
+
+h1 {
+  background: gray;
+  width: 90%;
+  margin: 5px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/* Footer */
+.footer {
+  background: #e85a10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: white;
+  width: 100%;
+}

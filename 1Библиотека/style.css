@@ -1,0 +1,41 @@
+/* Reset Default Styles */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Align Table To Center */
+body
+{
+    display: flex;
+    justify-content: center;
+}
+/* Table Sizes */
+table
+{
+    width: 65%;
+    height: 95%;
+}
+
+/* Table Content Styles */
+table, th, td
+{
+
+    border: 1px solid black;
+}
+
+table tr td 
+{
+    padding: 0.5em;
+}
+
+table tr th
+{
+    background: url(/bg01.JPG);
+    padding: 0.5em;
+}
+
+.wr_right { text-align: right;}
+
+.wr_center { text-align: center;}
